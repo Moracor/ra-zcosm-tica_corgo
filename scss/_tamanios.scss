@@ -1,0 +1,22 @@
+/* variables */
+
+$fullAncho:100%;
+
+.text{
+	
+	width:$fullAncho/1.01;
+}
+
+.carousel{
+	
+	width:$fullAncho/1.01;
+}
+
+
+@for $i from 1 through 10{
+	
+	.col-#{$i}{
+		wodth:10%*$i;
+
+	}
+}

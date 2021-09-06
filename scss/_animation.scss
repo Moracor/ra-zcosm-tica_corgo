@@ -1,0 +1,29 @@
+/* variables */
+$dos:2s;
+
+$cuatro:4s;
+
+$seis:6s;
+
+.fadeIn{
+	
+ 
+ animation-duration:$dos;
+}
+
+.parallax{
+
+  	background-image: url("../assets/img/background3.jpg");
+  	height: 400px;
+  	background-position: center;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	}
+
+
+.videoPosition{
+	display: flex;
+	justify-content: center;
+}
+

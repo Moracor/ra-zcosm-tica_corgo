@@ -1,0 +1,48 @@
+/* variables */
+
+$textflex:flex;
+$textdirection:column;
+$textjustify:center;
+
+.text{
+
+display:$textflex;
+flex-direction:$textdirection;
+justify-content:$textjustify;
+
+	
+	&__title{
+	display:$textflex;
+
+	}
+	&__subtitle{
+	display:$textflex;
+
+	}
+	&__article{
+	display:$textflex;
+
+	}
+}
+
+.section{
+	
+	display:$textflex;
+}
+
+.image{
+	
+	&__flex{
+display:$textflex;
+flex-direction:$textdirection;
+align-items:$textjustify;
+}
+	
+}
+
+.retiro{
+	
+	display:$textflex;
+	flex-direction:$textdirection;
+	justify-content:$textjustify;
+}

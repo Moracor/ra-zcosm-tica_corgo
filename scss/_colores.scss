@@ -1,0 +1,14 @@
+/* variables */
+$negro:black;
+$gris:rgb(232,228,227);
+$grisclaro:#eee;
+
+
+.section{
+
+background:$grisclaro;
+&--color{
+color:$negro;
+}
+}
+

@@ -1,0 +1,15 @@
+/* variables */
+
+$titlealign:flex-end;
+$sectionalign:center;
+
+
+.section{
+
+justify-content:$sectionalign;
+	
+	&--align{
+	justify-content:$sectionalign;
+	}
+}
+

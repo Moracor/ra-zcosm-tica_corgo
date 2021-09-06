@@ -1,0 +1,86 @@
+/* variables */
+$sectionfontsize:30px;
+$sectionfontweight:400;
+$fontfamily:'kumbh';
+
+$sectionmargin:30px;
+$sectionpadding:30px;
+
+$titlefontsize:50px;
+$titleupper:uppercase;
+$titlespacing:10px;
+
+
+$subtitlesize: 35px;
+$subtitlesfontweight: 400;
+
+$articlesize: 20px;
+
+.section{
+
+margin-top:$sectionmargin;
+margin-bottom:$sectionmargin;
+
+	&__title{
+	font-size:$sectionfontsize;
+	padding:$sectionpadding;
+	letter-spacing:$titlespacing;
+
+	}
+} 
+
+.text{
+	&__title{
+	font-size:$titlefontsize;
+	text-transform:$titleupper;
+	letter-spacing:$titlespacing;
+	
+	
+	
+
+	}
+
+	&__subtitle{
+
+	font-size:$subtitlesize;
+	font-weight:$subtitlesfontweight;
+	letter-spacing:$titlespacing;
+	
+
+	}
+
+	&__article{
+	font-size:$articlesize;
+
+	
+
+
+	}
+
+}
+
+.image{
+
+
+	&--padding{
+
+    padding:$titlespacing;
+	}
+
+	&__space{
+
+	padding-top:$sectionmargin;
+	}
+
+	
+
+	}
+
+	
+.conocenosTxt {
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+
+

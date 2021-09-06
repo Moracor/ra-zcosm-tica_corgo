@@ -1,0 +1,18 @@
+/* variables */
+
+$circle:50%;
+
+
+.image{
+	
+	&__circle{
+	border-radius:$circle;
+	}
+}
+
+@each $pdv in fondo1, fondo2, fondo3 {
+	.#{$pdv}{
+	background-image:
+	url('../assets/img/#{$pdv}.png')
+	}
+}

@@ -1,0 +1,14 @@
+
+
+$redes: (
+ instagram: #FF69B4,
+ whatsapp:  #008000
+
+);
+
+@each $name-color, $fcolor in $redes {
+   .nav-item--#{$name-color} {
+       color: $fcolor;
+   }
+}
+
