@@ -43,6 +43,19 @@
   .section--align {
     justify-content: center; }
 
+.container-general {
+  margin-left: 50px;
+  margin-right: 20px; }
+
+.container {
+  margin-left: 50px;
+  margin-right: 20px; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 /* variables */
 .text {
   display: flex;
