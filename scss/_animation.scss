@@ -11,19 +11,35 @@ $seis:6s;
  animation-duration:$dos;
 }
 
-.parallax{
-
-  	background-image: url("../assets/img/background3.jpg");
-  	height: 400px;
-  	background-position: center;
-  	background-attachment: fixed;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	}
-
 
 .videoPosition{
 	display: flex;
 	justify-content: center;
 }
 
+.parallax{
+
+    background-image: url("../assets/img/background3.jpg");
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    }
+
+@media screen and (max-width: 768px) {
+  .parallax{
+
+    background-image: url("../assets/img/background3.jpg");
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    }}
